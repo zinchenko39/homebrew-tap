@@ -7,7 +7,7 @@ cask "conserva" do
   desc "Things to read later, kept in glass jars on the bottom of your screen"
   homepage "https://github.com/zinchenko39/conserva"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Conserva.app"
 
